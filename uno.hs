@@ -5,5 +5,5 @@ main = do
     print("")
     print("escolha uma opção:")
     print("(1) iniciar partida")
-    print("(2) hstórico de pontuação")
+    print("(2) histórico de pontuação")
     print("(3) regras do jogo")
