@@ -1,4 +1,4 @@
-//menu de start!!
+--menu de start!!
 main:: IO()
 main = do
     print("BEM-VINDO, JOGADOR! :)")
