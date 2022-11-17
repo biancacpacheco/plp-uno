@@ -44,3 +44,13 @@ historico = do
     putStrLn"Histórico: \npressione Enter para retornar ao Menu Principal"
     a <- getLine
     menuStart
+
+--menu uno
+--precisa escolher quantos bots pra iniciar
+
+-- o jogo:
+
+data Cor = Vermelho | Verde | Azul | Amarelo | Coringa
+data Valor = Zero | Um | Dois | Tres | Quatro | Cinco | Seis | Sete | Oito | Nove | MaisDois | MaisQuatro | TrocaCor | Inverte | Bloqueio
+data Carta = Carta {cor :: Cor, valor :: Valor}
+
